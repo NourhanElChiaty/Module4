@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="2" total="3" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Couldn’t find your Google Account]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="15019" started-at="2021-01-24T21:31:23Z" finished-at="2021-01-24T21:31:38Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="15019" started-at="2021-01-24T21:31:23Z" finished-at="2021-01-24T21:31:38Z">
+      <class name="POM_Design_Test_Cases.T_01_How_To_Locate_Elements">
+        <test-method status="PASS" signature="Launch_Browser()[pri:0, instance:POM_Design_Test_Cases.T_01_How_To_Locate_Elements@7f9a81e8]" name="Launch_Browser" is-config="true" duration-ms="8678" started-at="2021-01-24T21:31:23Z" finished-at="2021-01-24T21:31:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch_Browser -->
+        <test-method status="FAIL" signature="Login_With_Invalid_Email()[pri:1, instance:POM_Design_Test_Cases.T_01_How_To_Locate_Elements@7f9a81e8]" name="Login_With_Invalid_Email" duration-ms="5018" started-at="2021-01-24T21:31:32Z" finished-at="2021-01-24T21:31:37Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Couldn�t find your Google Account] but found [Couldn’t find your Google Account]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Couldn�t find your Google Account] but found [Couldn’t find your Google Account]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at POM_Design_Test_Cases.T_01_How_To_Locate_Elements.Login_With_Invalid_Email(T_01_How_To_Locate_Elements.java:68)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Couldn’t find your Google Account]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Login_With_Invalid_Email -->
+        <test-method status="PASS" signature="goToHomePage(org.testng.ITestResult)[pri:0, instance:POM_Design_Test_Cases.T_01_How_To_Locate_Elements@7f9a81e8]" name="goToHomePage" is-config="true" duration-ms="3" started-at="2021-01-24T21:31:37Z" finished-at="2021-01-24T21:31:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login_With_Invalid_Email status=FAILURE method=T_01_How_To_Locate_Elements.Login_With_Invalid_Email()[pri:1, instance:POM_Design_Test_Cases.T_01_How_To_Locate_Elements@7f9a81e8] output=Couldn’t find your Google Account]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToHomePage -->
+        <test-method status="PASS" signature="Close_Driver()[pri:0, instance:POM_Design_Test_Cases.T_01_How_To_Locate_Elements@7f9a81e8]" name="Close_Driver" is-config="true" duration-ms="1249" started-at="2021-01-24T21:31:37Z" finished-at="2021-01-24T21:31:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close_Driver -->
+      </class> <!-- POM_Design_Test_Cases.T_01_How_To_Locate_Elements -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
